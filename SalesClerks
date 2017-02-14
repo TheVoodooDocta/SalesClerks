@@ -1,0 +1,19 @@
+public class Clerks {
+double sales;
+String name;
+
+	public Clerks(String n){
+		sales = 0;
+		name = n;
+	}
+	public double getSales(){
+		return sales;
+	}
+	public String getName(){
+		return name;
+	}
+	public void adjustSales(double s){
+		sales += s;
+	}
+
+}
