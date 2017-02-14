@@ -1,0 +1,12 @@
+
+public class SalesClerks {
+int filledElements=0;
+
+public SalesClerks(int dimension){
+	Clerks[] ClerkList = new Clerks[dimension];
+}
+public void addSale(Clerks c, int sale){
+	ClerkList[filledElements] = c;
+	
+}
+}
